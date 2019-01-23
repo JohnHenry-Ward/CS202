@@ -1,0 +1,30 @@
+/* Selectors & declaration */
+/* Selector{ propertyName:value;} */
+
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+/* css variables - root & var() */
+:root{
+    --main-color:pink;
+    --text-color:yellow;
+}
+
+p{
+    color: green !important;  
+    /* overriding the red inline style in .html */
+}
+
+body{
+    /* font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+    font-family: 'Courier New', Courier, monospace; */
+
+    /* Shorthand for above */
+    font:italic small-caps bold 13px/150% Coiny;
+
+    background-color: var(--main-color)
+}
+

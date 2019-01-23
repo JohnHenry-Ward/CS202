@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <title>Lesson 3 | Forms</title>
+  </head>
+  <body>
+
+    <!-- Container or container-fluid -->
+    <div class="container">
+        <h1>Forms</h1>
+        <form action="welcome.html" method="get" autocomplete="" onsubmit="">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="n1" size="50px" required><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="p1"><br>
+
+            <label for="phone">Phone</label><br>
+            <input type="text" name="phone" id="ph1"><br>
+
+            <label for="date">Date</label><br>
+            <input type="date" name="date" id="d1"><br>
+
+            <label for="gender">Gender</label><br>
+            Male:<input type="radio" name="gender" id="g1">
+            Female: <input type="radio" name="gender" id="g2"><br>
+
+            <label for="image">Upload an image</label><br>
+            <input type="file" name="image" id="file"><br>
+
+            <label for="city">Select your city</label><br>
+            <section>
+                <option value="">city 1</option>
+                <option value="">city 2</option>
+                <option value="">city 3</option>
+            </section><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Type here..."></textarea><br>
+
+            <input class="btn btn-primary" type="submit" value="Send">
+
+
+        </form>
+    </div>
+
+
+    <hr>
+    
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="media/audio.mp3" type="audio">
+    </audio>
+
+    <hr>
+    <h3>Video</h3>
+    <video controls plays-inline>
+        <source src="media/video.mp4" type="video">
+    </video>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
