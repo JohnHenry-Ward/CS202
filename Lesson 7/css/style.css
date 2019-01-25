@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cards img{
+    max-width: 20%;
+    margin: 10px;
+    /* box-shadow: 6px 8px 2px blue, 15px 20px 4px green; */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.34);
+}
+
