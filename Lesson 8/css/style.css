@@ -1,0 +1,35 @@
+.box1{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to right, green, yellow);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box2{
+    width: 500px;
+    height: 200px;
+    background: radial-gradient(circle, green, black);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box3{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to right, #44a08d, #093637);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box4{
+    width: 500px;
+    height: 200px;
+    background-color: tomato;
+    margin-bottom: 10px;
+    position: relative;
+    transition-property: background-color border-radius;
+    transition-duration: 3s;
+}
+
+.box4:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
