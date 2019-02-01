@@ -1,0 +1,82 @@
+/* Author - Justice Banson */
+/* Stylesheet for lesson5 */
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+:root{
+    --main-color:#05a081;
+    --text-color:#fff;
+    --bg-1:#eee;
+    --bg-2:#333;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-size: 20px !important;
+}
+
+header{
+    width: 100%;
+    position:absolute; /*fixed;*/
+    z-index: 5;
+}
+header nav{
+    background: transparent !important;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    padding: 1em 2.5em;
+    display: inline-block;
+    color: #fff;
+    
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+main{
+    padding: 4em 0;
+    background-color: var(--background-color);
+}
+.floatleft{
+    width: 30%;
+    float: left;
+}
+.floatright{
+    width: 60%;
+    float: right;
+}
+.box{
+    text-align: center;
+    width: 28%;
+    float: left;
+    padding: 2em 0;
+    margin: 1em;
+}
+.bg-color{
+    color:var(--text-color);
+    background-color: var(--bg-2);
+    overflow: hidden;
+}
+.fas{
+    font-size: 3em;
+    padding: 0.5em;
+}
+.button{
+    background-color: var(--main-color);
+    color:var(--text-color);
+    padding: 0.5em 1em;
+    border-radius: 4px;   
+}
+
+footer{
+    width: 100%;
+    padding: 2.6em;
+    text-align: center;
+}
