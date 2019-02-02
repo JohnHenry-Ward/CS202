@@ -21,12 +21,12 @@ body{
 
 header{
     width: 100%;
+    position:absolute;
+    z-index: 5;
 }
 
 header nav{
     background: transparent !important;
-    position: absolute;
-    width: 90%;
 }
 
 nav a{
