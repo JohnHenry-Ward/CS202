@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:#22bbdd;
+    --color2:#2c6e78;
+}
+
+.box{
+    padding: 0.8em;
+    font-size: 26px;
+    color: white;
+    border: 1px solid white;
+}
+
+.color1{
+    background-color: var(--color1);
+}
+
+.color2{
+    background-color: var(--color2);
+}
+
+.grid{
+    /* most of these are interchangable */
+    display: grid;
+    /* grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 300px; */
+    /* Fraction unit - fr*/
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-rows: 200px 80px; */
+    /* Gap */
+    /* grid-gap: 20px; */
+    /* grid-row-gap or grid-column-gap works to */
+    /* Repeat */
+    /* grid-template-columns: repeat(4, 1fr); */
+
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas: 
+    "head head head"
+    "nav nav section"
+    "main main section"
+    "footer footer footer"
+}
+
+.header{
+    grid-area: head;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.section{
+    grid-area: section;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+}
