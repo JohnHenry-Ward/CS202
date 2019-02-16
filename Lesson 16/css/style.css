@@ -1,0 +1,9 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    position: relative;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-flex;
+}
